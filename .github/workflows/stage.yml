@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: maxr524/openmct-tutorial:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/openmct-tutorial:latest
